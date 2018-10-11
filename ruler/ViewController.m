@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ScrollRulerView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 30)];
+    [self.view addSubview:label];
+    
+    ScrollRulerView *ruler = [[ScrollRulerView alloc]initWithFrame:CGRectMake(0, 200, self.view.bounds.size.width, 100) Unit:100 Max:20000 Defalt:1000 block:^(NSInteger value) {
+        label.text = [NSString stringWithFormat:@"滑到%ld了",value];
+    }];
+    ruler.follow = YES;//同步变化
+    [self.view addSubview:ruler];
+    
 }
 
 

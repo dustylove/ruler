@@ -15,6 +15,7 @@
 		390193BC212BBE3E00AB6096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 390193BB212BBE3E00AB6096 /* main.m */; };
 		390193C6212BBE3E00AB6096 /* rulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 390193C5212BBE3E00AB6096 /* rulerTests.m */; };
 		390193D1212BBE3E00AB6096 /* rulerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 390193D0212BBE3E00AB6096 /* rulerUITests.m */; };
+		390193E0212BBE7D00AB6096 /* ScrollRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 390193DF212BBE7D00AB6096 /* ScrollRulerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		390193CC212BBE3E00AB6096 /* rulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		390193D0212BBE3E00AB6096 /* rulerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rulerUITests.m; sourceTree = "<group>"; };
 		390193D2212BBE3E00AB6096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390193DE212BBE7D00AB6096 /* ScrollRulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollRulerView.h; sourceTree = "<group>"; };
+		390193DF212BBE7D00AB6096 /* ScrollRulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollRulerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				390193AD212BBE3C00AB6096 /* AppDelegate.m */,
 				390193AF212BBE3C00AB6096 /* ViewController.h */,
 				390193B0212BBE3C00AB6096 /* ViewController.m */,
+				390193DE212BBE7D00AB6096 /* ScrollRulerView.h */,
+				390193DF212BBE7D00AB6096 /* ScrollRulerView.m */,
 				390193B2212BBE3C00AB6096 /* Main.storyboard */,
 				390193B5212BBE3E00AB6096 /* Assets.xcassets */,
 				390193B7212BBE3E00AB6096 /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				390193E0212BBE7D00AB6096 /* ScrollRulerView.m in Sources */,
 				390193B1212BBE3C00AB6096 /* ViewController.m in Sources */,
 				390193BC212BBE3E00AB6096 /* main.m in Sources */,
 				390193AE212BBE3C00AB6096 /* AppDelegate.m in Sources */,
